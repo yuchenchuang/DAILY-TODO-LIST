@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif !important;
+}
+body {
+  background-color: black;
+}
+/* Form styling */
+
+.form_wrapper {
+  max-width: calc(60% - 30px);
+  margin: 30px auto 100px auto;
+}
+.form_wrapper input,
+.form_wrapper select,
+.form_wrapper button {
+  font-size: 32px;
+}
+
+/* List styling */
+.container .row ul {
+  height: 400px;
+  overflow-y: scroll;
+  border: 2px solid rgb(216, 216, 216);
+}
+ul .list-group-item {
+  font-size: 32px;
+}
